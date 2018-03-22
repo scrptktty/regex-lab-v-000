@@ -12,6 +12,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(string)
   if string.scan /\A[A-Z].*\S\z/
+    binding.pry
     return true
   else
     false
