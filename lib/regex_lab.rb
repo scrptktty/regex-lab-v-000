@@ -20,7 +20,7 @@ def first_word_capitalized_and_ends_with_punctuation?(string)
   end
 end
 
-def valid_phone_number(string)
+def valid_phone_number?(string)
   if string.match /(\d{3}[- ]?|\(\d{3}\) )\d{3}[- ]?\d{4}/
     return true
   else
