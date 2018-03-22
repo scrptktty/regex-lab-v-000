@@ -19,7 +19,7 @@ def first_word_capitalized_and_ends_with_punctuation?(string)
     false
   end
 end
-#
-# def valid_phone_number(string)
-#   string =~ /(\d{10}/
-# end
+
+def valid_phone_number(string)
+  string =~ /(\d{3}[- ]?|\(\d{3}\) )\d{3}[- ]?\d{4}/
+end
