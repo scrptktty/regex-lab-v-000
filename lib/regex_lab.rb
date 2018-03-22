@@ -1,3 +1,5 @@
+require "pry"
+
 def starts_with_a_vowel?(string)
   !!(string =~ /\b[aeiou]/i)
 end
